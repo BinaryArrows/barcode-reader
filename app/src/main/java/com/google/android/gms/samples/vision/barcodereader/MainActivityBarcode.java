@@ -464,7 +464,7 @@ public class MainActivityBarcode extends Activity
 //        String requestRange = "11";}
 
         private List<List<Object>> getDataFromApi() throws IOException {
-            
+
 
             String range;// = "warehouse1!A2:F";
 
