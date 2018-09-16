@@ -1,0 +1,301 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\srini\AndroidStudioProjects\android-vision-master\visionSamples\barcode-reader\app\src\main\AndroidManifest.xml:2:1-47:12
+INJECTED from C:\Users\srini\AndroidStudioProjects\android-vision-master\visionSamples\barcode-reader\app\src\main\AndroidManifest.xml:2:1-47:12
+INJECTED from C:\Users\srini\AndroidStudioProjects\android-vision-master\visionSamples\barcode-reader\app\src\main\AndroidManifest.xml:2:1-47:12
+INJECTED from C:\Users\srini\AndroidStudioProjects\android-vision-master\visionSamples\barcode-reader\app\src\main\AndroidManifest.xml:2:1-47:12
+MERGED from [com.android.support:design:24.2.0] C:\Users\srini\.gradle\caches\transforms-1\files-1.1\design-24.2.0.aar\cd5a9808f8257ea907c22aa2ab80bebb\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-vision:15.0.1] C:\Users\srini\.gradle\caches\transforms-1\files-1.1\play-services-vision-15.0.1.aar\2cadc038befb7a88d617fcd201860ac1\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-auth:15.0.1] C:\Users\srini\.gradle\caches\transforms-1\files-1.1\play-services-auth-15.0.1.aar\fe0f101be9f39707fa0744bc896b7170\AndroidManifest.xml:17:1-39:12
+MERGED from [com.google.android.gms:play-services-gcm:15.0.1] C:\Users\srini\.gradle\caches\transforms-1\files-1.1\play-services-gcm-15.0.1.aar\5e20eb19584500ee1ad82468e25e306e\AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.android.gms:play-services-vision-common:15.0.1] C:\Users\srini\.gradle\caches\transforms-1\files-1.1\play-services-vision-common-15.0.1.aar\bed3db5e8260141aa7bce9bc4dae0b67\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:15.0.1] C:\Users\srini\.gradle\caches\transforms-1\files-1.1\play-services-auth-api-phone-15.0.1.aar\a8249d70a61990b55ec37b01921c52e8\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-auth-base:15.0.1] C:\Users\srini\.gradle\caches\transforms-1\files-1.1\play-services-auth-base-15.0.1.aar\7b8aa565136252047fe42f072f14eb8c\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-iid:15.0.1] C:\Users\srini\.gradle\caches\transforms-1\files-1.1\play-services-iid-15.0.1.aar\bd53a715753e46c6c997dd4cad8571ee\AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.android.gms:play-services-clearcut:15.0.1] C:\Users\srini\.gradle\caches\transforms-1\files-1.1\play-services-clearcut-15.0.1.aar\fe14ffdf8c5ac3245874cb011856b588\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-flags:15.0.1] C:\Users\srini\.gradle\caches\transforms-1\files-1.1\play-services-flags-15.0.1.aar\89d4b58af8fedd702c4653fe78fd0cf9\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-phenotype:15.0.1] C:\Users\srini\.gradle\caches\transforms-1\files-1.1\play-services-phenotype-15.0.1.aar\a24ff221798b201787a5aac634b5dc70\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\srini\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\c8b8d4f375cd625408f99dc3fc85a8af\AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] C:\Users\srini\.gradle\caches\transforms-1\files-1.1\play-services-tasks-15.0.1.aar\08c58cb0ad523f9bce97da29fb0ac10e\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-stats:15.0.1] C:\Users\srini\.gradle\caches\transforms-1\files-1.1\play-services-stats-15.0.1.aar\611c65c476f7a8b5bbe7bdb293bc53fd\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\srini\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\fd2a8e460f3bdda2d645f1c90bbb5946\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\srini\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\e1b5d006ac713da25267b647c753e82d\AndroidManifest.xml:17:1-31:12
+MERGED from [pub.devrel:easypermissions:0.3.0] C:\Users\srini\.gradle\caches\transforms-1\files-1.1\easypermissions-0.3.0.aar\5792c52f3b00213d4f61f7009b2c6c52\AndroidManifest.xml:2:1-19:12
+MERGED from [com.android.support:appcompat-v7:27.0.1] C:\Users\srini\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.1.aar\26d1a0fde47a250ad024f0b29bab4f1a\AndroidManifest.xml:17:1-22:12
+MERGED from [com.jakewharton:butterknife:8.8.1] C:\Users\srini\.gradle\caches\transforms-1\files-1.1\butterknife-8.8.1.aar\bc50fa9821d0f360d1431f9d749aeac7\AndroidManifest.xml:2:1-7:12
+MERGED from [com.android.support:recyclerview-v7:24.2.0] C:\Users\srini\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-24.2.0.aar\58427ea6527043edeecb29f223075a9e\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.0.1] C:\Users\srini\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.0.1.aar\5a8a3c6887390076dd1af3569e9df5ca\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.0.1] C:\Users\srini\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.0.1.aar\48bf6df9550cd4c64ec1e4d2627729fe\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.0.1] C:\Users\srini\.gradle\caches\transforms-1\files-1.1\support-fragment-27.0.1.aar\3983bad8f7a11a199c2d3f70467a1dc9\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.0.1] C:\Users\srini\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.0.1.aar\ce41a29596f7b154065a9fd3922dbc2c\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\srini\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\97f2a3efe7f878e625c5f47b62125f6e\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:27.0.1] C:\Users\srini\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.0.1.aar\6fa420154b0f0380fbe93c5319d32ee4\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.0.1] C:\Users\srini\.gradle\caches\transforms-1\files-1.1\support-compat-27.0.1.aar\9ad574b3352bb7574dc7429516224a9f\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\srini\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\b22e6e06021ea73d911f6d7df582e3a9\AndroidManifest.xml:17:1-30:12
+INJECTED from C:\Users\srini\AndroidStudioProjects\android-vision-master\visionSamples\barcode-reader\app\src\main\AndroidManifest.xml:2:1-47:12
+INJECTED from C:\Users\srini\AndroidStudioProjects\android-vision-master\visionSamples\barcode-reader\app\src\main\AndroidManifest.xml:2:1-47:12
+INJECTED from C:\Users\srini\AndroidStudioProjects\android-vision-master\visionSamples\barcode-reader\app\src\main\AndroidManifest.xml:2:1-47:12
+	package
+		ADDED from C:\Users\srini\AndroidStudioProjects\android-vision-master\visionSamples\barcode-reader\app\src\main\AndroidManifest.xml:3:5-66
+		INJECTED from C:\Users\srini\AndroidStudioProjects\android-vision-master\visionSamples\barcode-reader\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\srini\AndroidStudioProjects\android-vision-master\visionSamples\barcode-reader\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\srini\AndroidStudioProjects\android-vision-master\visionSamples\barcode-reader\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\srini\AndroidStudioProjects\android-vision-master\visionSamples\barcode-reader\app\src\main\AndroidManifest.xml:2:1-47:12
+		INJECTED from C:\Users\srini\AndroidStudioProjects\android-vision-master\visionSamples\barcode-reader\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\srini\AndroidStudioProjects\android-vision-master\visionSamples\barcode-reader\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\srini\AndroidStudioProjects\android-vision-master\visionSamples\barcode-reader\app\src\main\AndroidManifest.xml:2:1-47:12
+		INJECTED from C:\Users\srini\AndroidStudioProjects\android-vision-master\visionSamples\barcode-reader\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\srini\AndroidStudioProjects\android-vision-master\visionSamples\barcode-reader\app\src\main\AndroidManifest.xml:2:11-69
+	android:installLocation
+		ADDED from C:\Users\srini\AndroidStudioProjects\android-vision-master\visionSamples\barcode-reader\app\src\main\AndroidManifest.xml:4:5-35
+uses-feature#android.hardware.camera
+ADDED from C:\Users\srini\AndroidStudioProjects\android-vision-master\visionSamples\barcode-reader\app\src\main\AndroidManifest.xml:6:5-60
+	android:name
+		ADDED from C:\Users\srini\AndroidStudioProjects\android-vision-master\visionSamples\barcode-reader\app\src\main\AndroidManifest.xml:6:19-57
+uses-permission#android.permission.CAMERA
+ADDED from C:\Users\srini\AndroidStudioProjects\android-vision-master\visionSamples\barcode-reader\app\src\main\AndroidManifest.xml:8:5-65
+	android:name
+		ADDED from C:\Users\srini\AndroidStudioProjects\android-vision-master\visionSamples\barcode-reader\app\src\main\AndroidManifest.xml:8:22-62
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\srini\AndroidStudioProjects\android-vision-master\visionSamples\barcode-reader\app\src\main\AndroidManifest.xml:9:5-67
+MERGED from [com.google.android.gms:play-services-gcm:15.0.1] C:\Users\srini\.gradle\caches\transforms-1\files-1.1\play-services-gcm-15.0.1.aar\5e20eb19584500ee1ad82468e25e306e\AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-gcm:15.0.1] C:\Users\srini\.gradle\caches\transforms-1\files-1.1\play-services-gcm-15.0.1.aar\5e20eb19584500ee1ad82468e25e306e\AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-iid:15.0.1] C:\Users\srini\.gradle\caches\transforms-1\files-1.1\play-services-iid-15.0.1.aar\bd53a715753e46c6c997dd4cad8571ee\AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-iid:15.0.1] C:\Users\srini\.gradle\caches\transforms-1\files-1.1\play-services-iid-15.0.1.aar\bd53a715753e46c6c997dd4cad8571ee\AndroidManifest.xml:24:5-67
+	android:name
+		ADDED from C:\Users\srini\AndroidStudioProjects\android-vision-master\visionSamples\barcode-reader\app\src\main\AndroidManifest.xml:9:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\srini\AndroidStudioProjects\android-vision-master\visionSamples\barcode-reader\app\src\main\AndroidManifest.xml:10:5-79
+	android:name
+		ADDED from C:\Users\srini\AndroidStudioProjects\android-vision-master\visionSamples\barcode-reader\app\src\main\AndroidManifest.xml:10:22-76
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from C:\Users\srini\AndroidStudioProjects\android-vision-master\visionSamples\barcode-reader\app\src\main\AndroidManifest.xml:11:5-71
+	android:name
+		ADDED from C:\Users\srini\AndroidStudioProjects\android-vision-master\visionSamples\barcode-reader\app\src\main\AndroidManifest.xml:11:22-68
+application
+ADDED from C:\Users\srini\AndroidStudioProjects\android-vision-master\visionSamples\barcode-reader\app\src\main\AndroidManifest.xml:13:5-45:19
+MERGED from [com.android.support:design:24.2.0] C:\Users\srini\.gradle\caches\transforms-1\files-1.1\design-24.2.0.aar\cd5a9808f8257ea907c22aa2ab80bebb\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:24.2.0] C:\Users\srini\.gradle\caches\transforms-1\files-1.1\design-24.2.0.aar\cd5a9808f8257ea907c22aa2ab80bebb\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-vision:15.0.1] C:\Users\srini\.gradle\caches\transforms-1\files-1.1\play-services-vision-15.0.1.aar\2cadc038befb7a88d617fcd201860ac1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision:15.0.1] C:\Users\srini\.gradle\caches\transforms-1\files-1.1\play-services-vision-15.0.1.aar\2cadc038befb7a88d617fcd201860ac1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-auth:15.0.1] C:\Users\srini\.gradle\caches\transforms-1\files-1.1\play-services-auth-15.0.1.aar\fe0f101be9f39707fa0744bc896b7170\AndroidManifest.xml:22:5-37:19
+MERGED from [com.google.android.gms:play-services-auth:15.0.1] C:\Users\srini\.gradle\caches\transforms-1\files-1.1\play-services-auth-15.0.1.aar\fe0f101be9f39707fa0744bc896b7170\AndroidManifest.xml:22:5-37:19
+MERGED from [com.google.android.gms:play-services-gcm:15.0.1] C:\Users\srini\.gradle\caches\transforms-1\files-1.1\play-services-gcm-15.0.1.aar\5e20eb19584500ee1ad82468e25e306e\AndroidManifest.xml:26:5-20
+MERGED from [com.google.android.gms:play-services-gcm:15.0.1] C:\Users\srini\.gradle\caches\transforms-1\files-1.1\play-services-gcm-15.0.1.aar\5e20eb19584500ee1ad82468e25e306e\AndroidManifest.xml:26:5-20
+MERGED from [com.google.android.gms:play-services-vision-common:15.0.1] C:\Users\srini\.gradle\caches\transforms-1\files-1.1\play-services-vision-common-15.0.1.aar\bed3db5e8260141aa7bce9bc4dae0b67\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision-common:15.0.1] C:\Users\srini\.gradle\caches\transforms-1\files-1.1\play-services-vision-common-15.0.1.aar\bed3db5e8260141aa7bce9bc4dae0b67\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-iid:15.0.1] C:\Users\srini\.gradle\caches\transforms-1\files-1.1\play-services-iid-15.0.1.aar\bd53a715753e46c6c997dd4cad8571ee\AndroidManifest.xml:26:5-20
+MERGED from [com.google.android.gms:play-services-iid:15.0.1] C:\Users\srini\.gradle\caches\transforms-1\files-1.1\play-services-iid-15.0.1.aar\bd53a715753e46c6c997dd4cad8571ee\AndroidManifest.xml:26:5-20
+MERGED from [com.google.android.gms:play-services-clearcut:15.0.1] C:\Users\srini\.gradle\caches\transforms-1\files-1.1\play-services-clearcut-15.0.1.aar\fe14ffdf8c5ac3245874cb011856b588\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-clearcut:15.0.1] C:\Users\srini\.gradle\caches\transforms-1\files-1.1\play-services-clearcut-15.0.1.aar\fe14ffdf8c5ac3245874cb011856b588\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-phenotype:15.0.1] C:\Users\srini\.gradle\caches\transforms-1\files-1.1\play-services-phenotype-15.0.1.aar\a24ff221798b201787a5aac634b5dc70\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-phenotype:15.0.1] C:\Users\srini\.gradle\caches\transforms-1\files-1.1\play-services-phenotype-15.0.1.aar\a24ff221798b201787a5aac634b5dc70\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\srini\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\c8b8d4f375cd625408f99dc3fc85a8af\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\srini\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\c8b8d4f375cd625408f99dc3fc85a8af\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] C:\Users\srini\.gradle\caches\transforms-1\files-1.1\play-services-tasks-15.0.1.aar\08c58cb0ad523f9bce97da29fb0ac10e\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] C:\Users\srini\.gradle\caches\transforms-1\files-1.1\play-services-tasks-15.0.1.aar\08c58cb0ad523f9bce97da29fb0ac10e\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:15.0.1] C:\Users\srini\.gradle\caches\transforms-1\files-1.1\play-services-stats-15.0.1.aar\611c65c476f7a8b5bbe7bdb293bc53fd\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:15.0.1] C:\Users\srini\.gradle\caches\transforms-1\files-1.1\play-services-stats-15.0.1.aar\611c65c476f7a8b5bbe7bdb293bc53fd\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\srini\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\fd2a8e460f3bdda2d645f1c90bbb5946\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\srini\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\fd2a8e460f3bdda2d645f1c90bbb5946\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\srini\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\e1b5d006ac713da25267b647c753e82d\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\srini\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\e1b5d006ac713da25267b647c753e82d\AndroidManifest.xml:25:5-29:19
+MERGED from [pub.devrel:easypermissions:0.3.0] C:\Users\srini\.gradle\caches\transforms-1\files-1.1\easypermissions-0.3.0.aar\5792c52f3b00213d4f61f7009b2c6c52\AndroidManifest.xml:11:5-17:19
+MERGED from [pub.devrel:easypermissions:0.3.0] C:\Users\srini\.gradle\caches\transforms-1\files-1.1\easypermissions-0.3.0.aar\5792c52f3b00213d4f61f7009b2c6c52\AndroidManifest.xml:11:5-17:19
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\srini\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\97f2a3efe7f878e625c5f47b62125f6e\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\srini\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\97f2a3efe7f878e625c5f47b62125f6e\AndroidManifest.xml:25:5-29:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\srini\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\b22e6e06021ea73d911f6d7df582e3a9\AndroidManifest.xml:24:5-28:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\srini\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\b22e6e06021ea73d911f6d7df582e3a9\AndroidManifest.xml:24:5-28:19
+	android:supportsRtl
+		ADDED from C:\Users\srini\AndroidStudioProjects\android-vision-master\visionSamples\barcode-reader\app\src\main\AndroidManifest.xml:19:9-37
+	android:label
+		ADDED from C:\Users\srini\AndroidStudioProjects\android-vision-master\visionSamples\barcode-reader\app\src\main\AndroidManifest.xml:18:9-40
+	android:hardwareAccelerated
+		ADDED from C:\Users\srini\AndroidStudioProjects\android-vision-master\visionSamples\barcode-reader\app\src\main\AndroidManifest.xml:16:9-43
+	android:fullBackupContent
+		ADDED from C:\Users\srini\AndroidStudioProjects\android-vision-master\visionSamples\barcode-reader\app\src\main\AndroidManifest.xml:15:9-42
+	android:icon
+		ADDED from C:\Users\srini\AndroidStudioProjects\android-vision-master\visionSamples\barcode-reader\app\src\main\AndroidManifest.xml:17:9-38
+	android:allowBackup
+		ADDED from C:\Users\srini\AndroidStudioProjects\android-vision-master\visionSamples\barcode-reader\app\src\main\AndroidManifest.xml:14:9-35
+	android:theme
+		ADDED from C:\Users\srini\AndroidStudioProjects\android-vision-master\visionSamples\barcode-reader\app\src\main\AndroidManifest.xml:20:9-47
+meta-data#com.google.android.gms.version
+ADDED from C:\Users\srini\AndroidStudioProjects\android-vision-master\visionSamples\barcode-reader\app\src\main\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\srini\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\fd2a8e460f3bdda2d645f1c90bbb5946\AndroidManifest.xml:23:9-25:69
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\srini\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\fd2a8e460f3bdda2d645f1c90bbb5946\AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from C:\Users\srini\AndroidStudioProjects\android-vision-master\visionSamples\barcode-reader\app\src\main\AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from C:\Users\srini\AndroidStudioProjects\android-vision-master\visionSamples\barcode-reader\app\src\main\AndroidManifest.xml:22:13-58
+meta-data#com.google.android.gms.vision.DEPENDENCIES
+ADDED from C:\Users\srini\AndroidStudioProjects\android-vision-master\visionSamples\barcode-reader\app\src\main\AndroidManifest.xml:24:9-26:39
+	android:value
+		ADDED from C:\Users\srini\AndroidStudioProjects\android-vision-master\visionSamples\barcode-reader\app\src\main\AndroidManifest.xml:26:13-36
+	android:name
+		ADDED from C:\Users\srini\AndroidStudioProjects\android-vision-master\visionSamples\barcode-reader\app\src\main\AndroidManifest.xml:25:13-70
+activity#com.google.android.gms.samples.vision.barcodereader.MainActivityBarcode
+ADDED from C:\Users\srini\AndroidStudioProjects\android-vision-master\visionSamples\barcode-reader\app\src\main\AndroidManifest.xml:28:9-38:20
+	android:screenOrientation
+		ADDED from C:\Users\srini\AndroidStudioProjects\android-vision-master\visionSamples\barcode-reader\app\src\main\AndroidManifest.xml:30:13-49
+	android:label
+		ADDED from C:\Users\srini\AndroidStudioProjects\android-vision-master\visionSamples\barcode-reader\app\src\main\AndroidManifest.xml:32:13-56
+	android:name
+		ADDED from C:\Users\srini\AndroidStudioProjects\android-vision-master\visionSamples\barcode-reader\app\src\main\AndroidManifest.xml:29:13-48
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\srini\AndroidStudioProjects\android-vision-master\visionSamples\barcode-reader\app\src\main\AndroidManifest.xml:33:13-37:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\srini\AndroidStudioProjects\android-vision-master\visionSamples\barcode-reader\app\src\main\AndroidManifest.xml:34:17-69
+	android:name
+		ADDED from C:\Users\srini\AndroidStudioProjects\android-vision-master\visionSamples\barcode-reader\app\src\main\AndroidManifest.xml:34:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\srini\AndroidStudioProjects\android-vision-master\visionSamples\barcode-reader\app\src\main\AndroidManifest.xml:36:17-77
+	android:name
+		ADDED from C:\Users\srini\AndroidStudioProjects\android-vision-master\visionSamples\barcode-reader\app\src\main\AndroidManifest.xml:36:27-74
+activity#com.google.android.gms.samples.vision.barcodereader.MainActivity
+ADDED from C:\Users\srini\AndroidStudioProjects\android-vision-master\visionSamples\barcode-reader\app\src\main\AndroidManifest.xml:39:9-41:48
+	android:screenOrientation
+		ADDED from C:\Users\srini\AndroidStudioProjects\android-vision-master\visionSamples\barcode-reader\app\src\main\AndroidManifest.xml:40:13-49
+	android:label
+		ADDED from C:\Users\srini\AndroidStudioProjects\android-vision-master\visionSamples\barcode-reader\app\src\main\AndroidManifest.xml:41:13-46
+	android:name
+		ADDED from C:\Users\srini\AndroidStudioProjects\android-vision-master\visionSamples\barcode-reader\app\src\main\AndroidManifest.xml:39:19-47
+activity#com.google.android.gms.samples.vision.barcodereader.BarcodeCaptureActivity
+ADDED from C:\Users\srini\AndroidStudioProjects\android-vision-master\visionSamples\barcode-reader\app\src\main\AndroidManifest.xml:42:9-44:43
+	android:screenOrientation
+		ADDED from C:\Users\srini\AndroidStudioProjects\android-vision-master\visionSamples\barcode-reader\app\src\main\AndroidManifest.xml:43:13-49
+	android:label
+		ADDED from C:\Users\srini\AndroidStudioProjects\android-vision-master\visionSamples\barcode-reader\app\src\main\AndroidManifest.xml:44:13-41
+	android:name
+		ADDED from C:\Users\srini\AndroidStudioProjects\android-vision-master\visionSamples\barcode-reader\app\src\main\AndroidManifest.xml:42:19-57
+uses-sdk
+INJECTED from C:\Users\srini\AndroidStudioProjects\android-vision-master\visionSamples\barcode-reader\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\srini\AndroidStudioProjects\android-vision-master\visionSamples\barcode-reader\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\srini\AndroidStudioProjects\android-vision-master\visionSamples\barcode-reader\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:design:24.2.0] C:\Users\srini\.gradle\caches\transforms-1\files-1.1\design-24.2.0.aar\cd5a9808f8257ea907c22aa2ab80bebb\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:design:24.2.0] C:\Users\srini\.gradle\caches\transforms-1\files-1.1\design-24.2.0.aar\cd5a9808f8257ea907c22aa2ab80bebb\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-vision:15.0.1] C:\Users\srini\.gradle\caches\transforms-1\files-1.1\play-services-vision-15.0.1.aar\2cadc038befb7a88d617fcd201860ac1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision:15.0.1] C:\Users\srini\.gradle\caches\transforms-1\files-1.1\play-services-vision-15.0.1.aar\2cadc038befb7a88d617fcd201860ac1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth:15.0.1] C:\Users\srini\.gradle\caches\transforms-1\files-1.1\play-services-auth-15.0.1.aar\fe0f101be9f39707fa0744bc896b7170\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:15.0.1] C:\Users\srini\.gradle\caches\transforms-1\files-1.1\play-services-auth-15.0.1.aar\fe0f101be9f39707fa0744bc896b7170\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-gcm:15.0.1] C:\Users\srini\.gradle\caches\transforms-1\files-1.1\play-services-gcm-15.0.1.aar\5e20eb19584500ee1ad82468e25e306e\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-gcm:15.0.1] C:\Users\srini\.gradle\caches\transforms-1\files-1.1\play-services-gcm-15.0.1.aar\5e20eb19584500ee1ad82468e25e306e\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-vision-common:15.0.1] C:\Users\srini\.gradle\caches\transforms-1\files-1.1\play-services-vision-common-15.0.1.aar\bed3db5e8260141aa7bce9bc4dae0b67\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision-common:15.0.1] C:\Users\srini\.gradle\caches\transforms-1\files-1.1\play-services-vision-common-15.0.1.aar\bed3db5e8260141aa7bce9bc4dae0b67\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:15.0.1] C:\Users\srini\.gradle\caches\transforms-1\files-1.1\play-services-auth-api-phone-15.0.1.aar\a8249d70a61990b55ec37b01921c52e8\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:15.0.1] C:\Users\srini\.gradle\caches\transforms-1\files-1.1\play-services-auth-api-phone-15.0.1.aar\a8249d70a61990b55ec37b01921c52e8\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:15.0.1] C:\Users\srini\.gradle\caches\transforms-1\files-1.1\play-services-auth-base-15.0.1.aar\7b8aa565136252047fe42f072f14eb8c\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:15.0.1] C:\Users\srini\.gradle\caches\transforms-1\files-1.1\play-services-auth-base-15.0.1.aar\7b8aa565136252047fe42f072f14eb8c\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-iid:15.0.1] C:\Users\srini\.gradle\caches\transforms-1\files-1.1\play-services-iid-15.0.1.aar\bd53a715753e46c6c997dd4cad8571ee\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-iid:15.0.1] C:\Users\srini\.gradle\caches\transforms-1\files-1.1\play-services-iid-15.0.1.aar\bd53a715753e46c6c997dd4cad8571ee\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-clearcut:15.0.1] C:\Users\srini\.gradle\caches\transforms-1\files-1.1\play-services-clearcut-15.0.1.aar\fe14ffdf8c5ac3245874cb011856b588\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-clearcut:15.0.1] C:\Users\srini\.gradle\caches\transforms-1\files-1.1\play-services-clearcut-15.0.1.aar\fe14ffdf8c5ac3245874cb011856b588\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-flags:15.0.1] C:\Users\srini\.gradle\caches\transforms-1\files-1.1\play-services-flags-15.0.1.aar\89d4b58af8fedd702c4653fe78fd0cf9\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-flags:15.0.1] C:\Users\srini\.gradle\caches\transforms-1\files-1.1\play-services-flags-15.0.1.aar\89d4b58af8fedd702c4653fe78fd0cf9\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-phenotype:15.0.1] C:\Users\srini\.gradle\caches\transforms-1\files-1.1\play-services-phenotype-15.0.1.aar\a24ff221798b201787a5aac634b5dc70\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-phenotype:15.0.1] C:\Users\srini\.gradle\caches\transforms-1\files-1.1\play-services-phenotype-15.0.1.aar\a24ff221798b201787a5aac634b5dc70\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\srini\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\c8b8d4f375cd625408f99dc3fc85a8af\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\srini\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\c8b8d4f375cd625408f99dc3fc85a8af\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] C:\Users\srini\.gradle\caches\transforms-1\files-1.1\play-services-tasks-15.0.1.aar\08c58cb0ad523f9bce97da29fb0ac10e\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] C:\Users\srini\.gradle\caches\transforms-1\files-1.1\play-services-tasks-15.0.1.aar\08c58cb0ad523f9bce97da29fb0ac10e\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:15.0.1] C:\Users\srini\.gradle\caches\transforms-1\files-1.1\play-services-stats-15.0.1.aar\611c65c476f7a8b5bbe7bdb293bc53fd\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:15.0.1] C:\Users\srini\.gradle\caches\transforms-1\files-1.1\play-services-stats-15.0.1.aar\611c65c476f7a8b5bbe7bdb293bc53fd\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\srini\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\fd2a8e460f3bdda2d645f1c90bbb5946\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\srini\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\fd2a8e460f3bdda2d645f1c90bbb5946\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\srini\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\e1b5d006ac713da25267b647c753e82d\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\srini\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\e1b5d006ac713da25267b647c753e82d\AndroidManifest.xml:21:5-23:54
+MERGED from [pub.devrel:easypermissions:0.3.0] C:\Users\srini\.gradle\caches\transforms-1\files-1.1\easypermissions-0.3.0.aar\5792c52f3b00213d4f61f7009b2c6c52\AndroidManifest.xml:7:5-9:41
+MERGED from [pub.devrel:easypermissions:0.3.0] C:\Users\srini\.gradle\caches\transforms-1\files-1.1\easypermissions-0.3.0.aar\5792c52f3b00213d4f61f7009b2c6c52\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:27.0.1] C:\Users\srini\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.1.aar\26d1a0fde47a250ad024f0b29bab4f1a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.0.1] C:\Users\srini\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.1.aar\26d1a0fde47a250ad024f0b29bab4f1a\AndroidManifest.xml:20:5-44
+MERGED from [com.jakewharton:butterknife:8.8.1] C:\Users\srini\.gradle\caches\transforms-1\files-1.1\butterknife-8.8.1.aar\bc50fa9821d0f360d1431f9d749aeac7\AndroidManifest.xml:5:5-43
+MERGED from [com.jakewharton:butterknife:8.8.1] C:\Users\srini\.gradle\caches\transforms-1\files-1.1\butterknife-8.8.1.aar\bc50fa9821d0f360d1431f9d749aeac7\AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:recyclerview-v7:24.2.0] C:\Users\srini\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-24.2.0.aar\58427ea6527043edeecb29f223075a9e\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:24.2.0] C:\Users\srini\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-24.2.0.aar\58427ea6527043edeecb29f223075a9e\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:animated-vector-drawable:27.0.1] C:\Users\srini\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.0.1.aar\5a8a3c6887390076dd1af3569e9df5ca\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.1] C:\Users\srini\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.0.1.aar\5a8a3c6887390076dd1af3569e9df5ca\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.1] C:\Users\srini\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.0.1.aar\48bf6df9550cd4c64ec1e4d2627729fe\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.1] C:\Users\srini\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.0.1.aar\48bf6df9550cd4c64ec1e4d2627729fe\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.1] C:\Users\srini\.gradle\caches\transforms-1\files-1.1\support-fragment-27.0.1.aar\3983bad8f7a11a199c2d3f70467a1dc9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.1] C:\Users\srini\.gradle\caches\transforms-1\files-1.1\support-fragment-27.0.1.aar\3983bad8f7a11a199c2d3f70467a1dc9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.1] C:\Users\srini\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.0.1.aar\ce41a29596f7b154065a9fd3922dbc2c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.1] C:\Users\srini\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.0.1.aar\ce41a29596f7b154065a9fd3922dbc2c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\srini\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\97f2a3efe7f878e625c5f47b62125f6e\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\srini\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\97f2a3efe7f878e625c5f47b62125f6e\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:27.0.1] C:\Users\srini\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.0.1.aar\6fa420154b0f0380fbe93c5319d32ee4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.1] C:\Users\srini\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.0.1.aar\6fa420154b0f0380fbe93c5319d32ee4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.1] C:\Users\srini\.gradle\caches\transforms-1\files-1.1\support-compat-27.0.1.aar\9ad574b3352bb7574dc7429516224a9f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.1] C:\Users\srini\.gradle\caches\transforms-1\files-1.1\support-compat-27.0.1.aar\9ad574b3352bb7574dc7429516224a9f\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\srini\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\b22e6e06021ea73d911f6d7df582e3a9\AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\srini\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\b22e6e06021ea73d911f6d7df582e3a9\AndroidManifest.xml:20:5-22:41
+INJECTED from C:\Users\srini\AndroidStudioProjects\android-vision-master\visionSamples\barcode-reader\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\srini\AndroidStudioProjects\android-vision-master\visionSamples\barcode-reader\app\src\main\AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:support-v4:26.1.0] C:\Users\srini\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\e1b5d006ac713da25267b647c753e82d\AndroidManifest.xml:23:9-51
+	android:targetSdkVersion
+		INJECTED from C:\Users\srini\AndroidStudioProjects\android-vision-master\visionSamples\barcode-reader\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\srini\AndroidStudioProjects\android-vision-master\visionSamples\barcode-reader\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\srini\AndroidStudioProjects\android-vision-master\visionSamples\barcode-reader\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\srini\AndroidStudioProjects\android-vision-master\visionSamples\barcode-reader\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\srini\AndroidStudioProjects\android-vision-master\visionSamples\barcode-reader\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\srini\AndroidStudioProjects\android-vision-master\visionSamples\barcode-reader\app\src\main\AndroidManifest.xml
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:15.0.1] C:\Users\srini\.gradle\caches\transforms-1\files-1.1\play-services-auth-15.0.1.aar\fe0f101be9f39707fa0744bc896b7170\AndroidManifest.xml:23:9-27:75
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:15.0.1] C:\Users\srini\.gradle\caches\transforms-1\files-1.1\play-services-auth-15.0.1.aar\fe0f101be9f39707fa0744bc896b7170\AndroidManifest.xml:25:13-46
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:15.0.1] C:\Users\srini\.gradle\caches\transforms-1\files-1.1\play-services-auth-15.0.1.aar\fe0f101be9f39707fa0744bc896b7170\AndroidManifest.xml:26:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:15.0.1] C:\Users\srini\.gradle\caches\transforms-1\files-1.1\play-services-auth-15.0.1.aar\fe0f101be9f39707fa0744bc896b7170\AndroidManifest.xml:27:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:15.0.1] C:\Users\srini\.gradle\caches\transforms-1\files-1.1\play-services-auth-15.0.1.aar\fe0f101be9f39707fa0744bc896b7170\AndroidManifest.xml:24:13-93
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:15.0.1] C:\Users\srini\.gradle\caches\transforms-1\files-1.1\play-services-auth-15.0.1.aar\fe0f101be9f39707fa0744bc896b7170\AndroidManifest.xml:33:9-36:110
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:15.0.1] C:\Users\srini\.gradle\caches\transforms-1\files-1.1\play-services-auth-15.0.1.aar\fe0f101be9f39707fa0744bc896b7170\AndroidManifest.xml:35:13-36
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:15.0.1] C:\Users\srini\.gradle\caches\transforms-1\files-1.1\play-services-auth-15.0.1.aar\fe0f101be9f39707fa0744bc896b7170\AndroidManifest.xml:36:13-107
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:15.0.1] C:\Users\srini\.gradle\caches\transforms-1\files-1.1\play-services-auth-15.0.1.aar\fe0f101be9f39707fa0744bc896b7170\AndroidManifest.xml:34:13-89
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.android.gms:play-services-gcm:15.0.1] C:\Users\srini\.gradle\caches\transforms-1\files-1.1\play-services-gcm-15.0.1.aar\5e20eb19584500ee1ad82468e25e306e\AndroidManifest.xml:23:5-82
+MERGED from [com.google.android.gms:play-services-iid:15.0.1] C:\Users\srini\.gradle\caches\transforms-1\files-1.1\play-services-iid-15.0.1.aar\bd53a715753e46c6c997dd4cad8571ee\AndroidManifest.xml:23:5-82
+MERGED from [com.google.android.gms:play-services-iid:15.0.1] C:\Users\srini\.gradle\caches\transforms-1\files-1.1\play-services-iid-15.0.1.aar\bd53a715753e46c6c997dd4cad8571ee\AndroidManifest.xml:23:5-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-gcm:15.0.1] C:\Users\srini\.gradle\caches\transforms-1\files-1.1\play-services-gcm-15.0.1.aar\5e20eb19584500ee1ad82468e25e306e\AndroidManifest.xml:23:22-79
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\srini\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\c8b8d4f375cd625408f99dc3fc85a8af\AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\srini\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\c8b8d4f375cd625408f99dc3fc85a8af\AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\srini\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\c8b8d4f375cd625408f99dc3fc85a8af\AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\srini\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\c8b8d4f375cd625408f99dc3fc85a8af\AndroidManifest.xml:24:13-79
+meta-data#android.support.VERSION
+ADDED from [com.android.support:support-v4:26.1.0] C:\Users\srini\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\e1b5d006ac713da25267b647c753e82d\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\srini\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\97f2a3efe7f878e625c5f47b62125f6e\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\srini\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\97f2a3efe7f878e625c5f47b62125f6e\AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from [com.android.support:support-v4:26.1.0] C:\Users\srini\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\e1b5d006ac713da25267b647c753e82d\AndroidManifest.xml:28:13-35
+	android:name
+		ADDED from [com.android.support:support-v4:26.1.0] C:\Users\srini\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\e1b5d006ac713da25267b647c753e82d\AndroidManifest.xml:27:13-51
+activity#pub.devrel.easypermissions.AppSettingsDialogHolderActivity
+ADDED from [pub.devrel:easypermissions:0.3.0] C:\Users\srini\.gradle\caches\transforms-1\files-1.1\easypermissions-0.3.0.aar\5792c52f3b00213d4f61f7009b2c6c52\AndroidManifest.xml:12:9-16:66
+	android:label
+		ADDED from [pub.devrel:easypermissions:0.3.0] C:\Users\srini\.gradle\caches\transforms-1\files-1.1\easypermissions-0.3.0.aar\5792c52f3b00213d4f61f7009b2c6c52\AndroidManifest.xml:15:13-29
+	android:exported
+		ADDED from [pub.devrel:easypermissions:0.3.0] C:\Users\srini\.gradle\caches\transforms-1\files-1.1\easypermissions-0.3.0.aar\5792c52f3b00213d4f61f7009b2c6c52\AndroidManifest.xml:14:13-37
+	android:theme
+		ADDED from [pub.devrel:easypermissions:0.3.0] C:\Users\srini\.gradle\caches\transforms-1\files-1.1\easypermissions-0.3.0.aar\5792c52f3b00213d4f61f7009b2c6c52\AndroidManifest.xml:16:13-63
+	android:name
+		ADDED from [pub.devrel:easypermissions:0.3.0] C:\Users\srini\.gradle\caches\transforms-1\files-1.1\easypermissions-0.3.0.aar\5792c52f3b00213d4f61f7009b2c6c52\AndroidManifest.xml:13:13-86
+meta-data#android.arch.lifecycle.VERSION
+ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\srini\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\b22e6e06021ea73d911f6d7df582e3a9\AndroidManifest.xml:25:9-27:47
+	android:value
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\srini\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\b22e6e06021ea73d911f6d7df582e3a9\AndroidManifest.xml:27:13-44
+	android:name
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\srini\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\b22e6e06021ea73d911f6d7df582e3a9\AndroidManifest.xml:26:13-58

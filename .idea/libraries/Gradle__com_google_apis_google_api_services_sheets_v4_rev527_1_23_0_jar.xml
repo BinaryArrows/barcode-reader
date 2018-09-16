@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.apis:google-api-services-sheets:v4-rev527-1.23.0@jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.apis/google-api-services-sheets/v4-rev527-1.23.0/42042cfb5f4fc3c0b2108acbf5345bfe70a0a551/google-api-services-sheets-v4-rev527-1.23.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.apis/google-api-services-sheets/v4-rev527-1.23.0/322c76607f90be740d7352bccbea54bd9c691f0/google-api-services-sheets-v4-rev527-1.23.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

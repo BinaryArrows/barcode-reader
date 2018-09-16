@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/valueuptxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="YOU ARE NOW UPDATING"
+        android:textColor="@android:color/holo_blue_dark" />
+    <EditText
+        android:id="@+id/valueupnumtxt"
+        android:layout_marginTop="5dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/valueuptxt"
+        android:inputType = "number"
+        android:text=""
+        android:hint="Enter the value here" />
+
+    <Button
+        android:id="@+id/valueupdatebtn"
+        android:layout_width="fill_parent"
+        android:layout_marginTop="5dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/valueupnumtxt"
+        android:background="@android:color/holo_green_light"
+        android:text="SUBMIT" />
+    <Button
+        android:id="@+id/valupcancelbtn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/valueupdatebtn"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp"
+        android:background="@android:color/holo_red_light"
+        android:text="CANCEL" />
+
+
+</RelativeLayout>

@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent" android:layout_height="fill_parent">
+
+
+    <TextView
+        android:id="@+id/producttextview"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center_horizontal"
+        android:text="PRODUCT NAME"
+        android:textColor="@android:color/holo_green_dark"
+        android:textSize="18sp" />
+
+    <!--<TextView-->
+    <!--android:id="@+id/producttextview"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="30dp"-->
+    <!--android:layout_alignLeft="@+id/categorytextview"-->
+    <!--android:layout_below="@+id/categorytextview"-->
+
+    <!--android:gravity="center_horizontal"-->
+    <!--android:text="PRODUCT NAME"-->
+    <!--android:textColor="@android:color/background_dark"-->
+    <!--android:textSize="18sp" />-->
+
+    <!--Carton Fields-->
+    <!--<TextView-->
+    <!--android:id="@+id/noscartontextview"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="30dp"-->
+    <!--android:layout_alignParentLeft="true"-->
+    <!--android:layout_below="@+id/producttextview"-->
+    <!--android:layout_marginLeft="10dp"-->
+    <!--android:layout_marginTop="30dp"-->
+    <!--android:gravity="center_horizontal"-->
+    <!--android:text="NOS CARTON"-->
+    <!--android:textColor="@android:color/holo_blue_dark"-->
+    <!--android:textSize="18sp" />-->
+
+
+
+    <TextView
+        android:id="@+id/noscartonvaltextview"
+        android:layout_below="@+id/producttextview"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_height="30dp"
+
+
+        android:layout_marginLeft="10dp"
+        android:gravity="center|left"
+        android:text="CTN VAL"
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/editcartonbtn"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+
+        android:layout_below="@+id/noscartonvaltextview"
+
+
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@android:color/holo_blue_dark"
+
+        android:text="EDIT NOS CARTON"
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp" />
+
+    <!--pieces Fields-->
+    <!--<TextView-->
+    <!--android:id="@+id/nospiecestextview"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="30dp"-->
+    <!--android:layout_alignParentLeft="true"-->
+    <!--android:layout_below="@+id/editcartonbtn"-->
+    <!--android:layout_marginLeft="10dp"-->
+    <!--android:layout_marginTop="30dp"-->
+    <!--android:gravity="center_horizontal"-->
+    <!--android:text="NOS pieces"-->
+    <!--android:textColor="@android:color/holo_blue_dark"-->
+    <!--android:textSize="18sp" />-->
+
+
+
+    <TextView
+        android:id="@+id/nospiecesvaltextview"
+        android:layout_below="@+id/editcartonbtn"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_height="30dp"
+
+
+
+        android:layout_marginLeft="10dp"
+        android:gravity="center|left"
+        android:text="CTN VAL"
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/editpiecesbtn"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+
+        android:layout_below="@+id/nospiecesvaltextview"
+
+
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@android:color/holo_blue_dark"
+
+        android:text="EDIT NOS PIECES"
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp" />
+
+    <!-- CARTON barcode Fields-->
+    <!--<TextView-->
+    <!--&lt;!&ndash;android:id="@+id/nosbarcodetextview"&ndash;&gt;-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="30dp"-->
+    <!--android:layout_alignParentLeft="true"-->
+    <!--android:layout_below="@+id/editpiecesbtn"-->
+    <!--android:layout_marginLeft="10dp"-->
+    <!--android:layout_marginTop="30dp"-->
+    <!--android:gravity="center_horizontal"-->
+    <!--android:text="NOS barcode"-->
+    <!--android:textColor="@android:color/holo_blue_dark"-->
+    <!--android:textSize="18sp" />-->
+
+
+
+    <TextView
+        android:id="@+id/nosbarcodevaltextview"
+        android:layout_below="@+id/editpiecesbtn"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_height="30dp"
+
+
+
+        android:layout_marginLeft="10dp"
+        android:gravity="center|left"
+        android:text="CTN VAL"
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/editbarcodebtn"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+
+        android:layout_below="@+id/nosbarcodevaltextview"
+
+
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@android:color/holo_blue_dark"
+
+        android:text="EDIT CARTON BARCODE"
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp" />
+
+    <!--PIECES BAR CODE VALUE-->
+    <!--<TextView-->
+    <!--android:id="@+id/nospcsbarcodetextview"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="30dp"-->
+    <!--android:layout_alignParentLeft="true"-->
+    <!--android:layout_below="@+id/editbarcodebtn"-->
+    <!--android:layout_marginLeft="10dp"-->
+    <!--android:layout_marginTop="30dp"-->
+    <!--android:gravity="center_horizontal"-->
+    <!--android:text="NOS barcode"-->
+    <!--android:textColor="@android:color/holo_blue_dark"-->
+    <!--android:textSize="18sp" />-->
+
+
+    <TextView
+        android:id="@+id/nospcsbarcodevaltextview"
+        android:layout_below="@+id/editbarcodebtn"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_height="30dp"
+
+
+
+        android:layout_marginLeft="10dp"
+        android:gravity="center|left"
+        android:text="pieces bar code val"
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/editpcsbarcodebtn"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+
+        android:layout_below="@+id/nospcsbarcodevaltextview"
+
+
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@android:color/holo_blue_dark"
+
+        android:text="EDIT PIECES BARCODE"
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp" />
+
+
+    <!--EXPIRY DATE-->
+    <!--<TextView-->
+    <!--android:id="@+id/expdatetxtview"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="30dp"-->
+    <!--android:layout_alignParentLeft="true"-->
+    <!--android:layout_below="@+id/editpcsbarcodebtn"-->
+    <!--android:layout_marginLeft="10dp"-->
+    <!--android:layout_marginTop="30dp"-->
+    <!--android:gravity="center_horizontal"-->
+    <!--android:text="EXP DATE"-->
+    <!--android:textColor="@android:color/holo_blue_dark"-->
+    <!--android:textSize="18sp" />-->
+
+
+    <TextView
+        android:id="@+id/expdatetxtvalview"
+        android:layout_below="@+id/editpcsbarcodebtn"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="30dp"
+
+
+
+        android:layout_marginLeft="10dp"
+        android:gravity="center|left"
+        android:text="EXPIRY REMARKS"
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/expdatebtn"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+
+        android:layout_below="@+id/expdatetxtvalview"
+
+
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@android:color/holo_blue_dark"
+
+        android:text="EDIT EXPIRY REMARKS"
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/genremarksview"
+        android:layout_below="@+id/expdatebtn"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="30dp"
+
+
+        android:layout_marginLeft="10dp"
+        android:gravity="center|left"
+        android:text="GENERAL REMARKS"
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/genremarksbtn"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+
+        android:layout_below="@+id/genremarksview"
+
+
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@android:color/holo_blue_dark"
+
+        android:text="EDIT GEN REMARKS"
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp" />
+
+
+    <!--UPDATE BUTTON-->
+    <Button
+        android:id="@+id/confirmproductupdatebtn"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+
+        android:layout_below="@+id/genremarksbtn"
+
+        android:layout_marginLeft="10dp"
+
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+
+
+        android:background="@android:color/holo_green_dark"
+
+        android:text="DONE"
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp" />
+
+
+
+</RelativeLayout>

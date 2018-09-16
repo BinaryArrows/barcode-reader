@@ -1,0 +1,43 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\srini\\AndroidStudioProjects\\android-vision-master\\visionSamples\\barcode-reader\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w820dp-v13\\values-w820dp-v13.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\srini\\AndroidStudioProjects\\android-vision-master\\visionSamples\\barcode-reader\\app\\src\\main\\res\\values-w820dp\\dimens.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "291",
+                        "endColumns": "57",
+                        "endOffsets": "344"
+                    },
+                    "to": {
+                        "startLines": "7",
+                        "startColumns": "4",
+                        "startOffsets": "306",
+                        "endColumns": "57",
+                        "endOffsets": "359"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\srini\\AndroidStudioProjects\\android-vision-master\\visionSamples\\barcode-reader\\app\\src\\main\\res\\values-w820dp\\colors.xml",
+                    "from": {
+                        "startLines": "4,2,3,6,5",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "157,57,105,263,204",
+                        "endColumns": "45,46,50,48,57",
+                        "endOffsets": "198,99,151,307,257"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "55,101,148,199,248",
+                        "endColumns": "45,46,50,48,57",
+                        "endOffsets": "96,143,194,243,301"
+                    }
+                }
+            ]
+        }
+    ]
+}

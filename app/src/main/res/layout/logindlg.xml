@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/selwaretxt2"
+        android:layout_width="241dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/warehousespinner"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="-30dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="SELECT WAREHOUSE BELOW"
+         />
+
+    <EditText
+        android:id="@+id/useridtxtdlg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="34dp"
+        android:ems="10"
+        android:foregroundGravity="center_vertical|center_horizontal"
+        android:gravity="center_vertical|center_horizontal"
+        android:hint="Enter User Name"
+        android:inputType="textPersonName"
+         />
+
+    <EditText
+        android:id="@+id/pwdtxtdlg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/useridtxtdlg"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:foregroundGravity="center_vertical|center_horizontal"
+        android:gravity="center_vertical|center_horizontal"
+        android:hint="Enter Password"
+        android:inputType="textPersonName"
+         />
+
+    <Spinner
+        android:id="@+id/warehousespinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_below="@+id/pwdtxtdlg"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="30dp"
+        android:animationCache="false"
+        android:background="@android:color/darker_gray"
+        android:fadeScrollbars="false"
+        android:foregroundGravity="center_vertical|center_horizontal"
+        android:gravity="center_vertical|center_horizontal"
+         />
+
+    <Button
+        android:id="@+id/logdlgbtn"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+
+        android:layout_below="@+id/warehousespinner"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+
+        android:text="LOG IN"
+        />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="96dp"
+        android:layout_height="106dp"
+        android:layout_below="@+id/logdlgbtn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/ambikaslogo" />
+
+    <TextView
+        android:id="@+id/selwaretxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+
+        android:gravity="center_vertical|center_horizontal"
+        android:text="STOCK VALIDATION"
+         />
+
+
+</RelativeLayout>
