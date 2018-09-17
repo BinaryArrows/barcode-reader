@@ -153,6 +153,8 @@ public class MainActivityBarcode extends Activity
     Button logdlgbtn;
 
     Button valSubBtn;
+    Button valSubBtnPcs;
+
     Button valCancelBtn;
     TextView updateValTxt;
 
@@ -305,12 +307,15 @@ public class MainActivityBarcode extends Activity
                 if (resultCode == CommonStatusCodes.SUCCESS) {
                     if (data != null) {
 
-                        Barcode barcodeTextValue = data.getParcelableExtra(MainActivity.barcodetagname);
+                        Barcode barcode = data.getParcelableExtra(BarcodeCaptureActivity.BarcodeObject);
 
-                        Log.d("barcodevalinmain","printbarval: " + barcodeTextValue);
+
+                     //   Barcode barcodeTextValue = data.getParcelableExtra(MainActivity.barcodetagname);
+
+                        Log.d("barcodevalinmain","printbarval: " + barcode.displayValue);
 
                         updateValTxt = (EditText) valeditDlg.findViewById(R.id.rmksvalueupnumtxt);
-                        updateValTxt.setText(barcodeTextValue.displayValue);
+                        updateValTxt.setText(barcode.displayValue);
                     } else {
 
                         Log.d("bar code error in main", "No barcode captured, intent data is null");
@@ -473,7 +478,7 @@ public class MainActivityBarcode extends Activity
             }
 
             else {
-              range = "Barcodes!A1:B";
+              range = "Barcodes!A2:C";
               Log.d("Warehouse name",range);
            }
 
@@ -484,7 +489,6 @@ public class MainActivityBarcode extends Activity
             List<List<Object>> values = response.getValues();
 
             Log.d("object data is",values.toString());
-
 
             return values;
         }
@@ -597,7 +601,7 @@ public class MainActivityBarcode extends Activity
                     pcsQuantityListArr.add(returnastrvalforarr(sizeOfTheRow,0,col));
                     categoryListArr.add(returnastrvalforarr(sizeOfTheRow,0,col));
                     cartonbarCodeListArr.add(returnastrvalforarr(sizeOfTheRow,1,col));
-                    piecesbarCodeListArr.add(returnastrvalforarr(sizeOfTheRow,0,col));
+                    piecesbarCodeListArr.add(returnastrvalforarr(sizeOfTheRow,2,col));
                     expdtremarksArr.add(returnastrvalforarr(sizeOfTheRow,0,col));
                     genremarksArr.add(returnastrvalforarr(sizeOfTheRow,0,col));
                 }
@@ -718,15 +722,33 @@ public class MainActivityBarcode extends Activity
 
 
             valSubBtn = valeditDlg.findViewById(idsubbtn);
+            valSubBtnPcs = valeditDlg.findViewById(R.id.rmksvalueupdatebtn4);
             valCancelBtn= valeditDlg.findViewById(idcancelbtn);
             valSubBtn.setOnClickListener(new View.OnClickListener() {
                  @Override
                  public void onClick(View view) {
+                     selectionval =   SELECTIONVAL.CARTONBARCODENUM;
+//                     Intent intent = new Intent(MainActivityBarcode.this, MainActivity.class);
+//                     startActivityForResult(intent, RC_BARCODE_CAPTURE);
 
-                     Intent intent = new Intent(MainActivityBarcode.this, MainActivity.class);
+                     Intent intent = new Intent(MainActivityBarcode.this, BarcodeCaptureActivity.class);
+                     intent.putExtra(BarcodeCaptureActivity.AutoFocus, true);
+                     intent.putExtra(BarcodeCaptureActivity.UseFlash, false);
+
                      startActivityForResult(intent, RC_BARCODE_CAPTURE);
                  }
              });
+
+            valSubBtnPcs.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    selectionval =   SELECTIONVAL.PCSBARCODENUM;
+                    Intent intent = new Intent(MainActivityBarcode.this, BarcodeCaptureActivity.class);
+                    intent.putExtra(BarcodeCaptureActivity.AutoFocus, true);
+                    intent.putExtra(BarcodeCaptureActivity.UseFlash, false);
+                    startActivityForResult(intent, RC_BARCODE_CAPTURE);
+                }
+            });
 
             valCancelBtn.setOnClickListener(new View.OnClickListener() {
                 @Override
@@ -870,7 +892,7 @@ public class MainActivityBarcode extends Activity
                 }
             }
              else   if(selectionval == SELECTIONVAL.PCSBARCODENUM){
-                range = sheetrange+"!F2:F";
+                range = "Barcodes!c2:c";
                 for (int i = 0; i < piecesbarCodeListArr.size(); i++) {
                     if (i == selectedId) {
                         data1.add(updateValTxt.getText().toString());
@@ -908,7 +930,7 @@ public class MainActivityBarcode extends Activity
             }
 
              else   if(selectionval == SELECTIONVAL.CARTONBARCODENUM){
-                range = "Barcodes!B1:B";
+                range = "Barcodes!B2:B";
                 for (int i = 0; i < cartonbarCodeListArr.size(); i++) {
                     if (i == selectedId) {
                         //data1.add(inputQuantity.getText());
@@ -980,7 +1002,7 @@ public class MainActivityBarcode extends Activity
              //   barvaltext.setText(updateValTxt.getText().toString());
             }
             else if(selectionval == SELECTIONVAL.PCSBARCODENUM) {
-                piecesbarvaltext.setText(updateValTxt.getText().toString());
+//                piecesbarvaltext.setText(updateValTxt.getText().toString());
             }
             else if(selectionval == SELECTIONVAL.NOSPIECES) {
                 pcsvaltext.setText(updateValTxt.getText().toString());

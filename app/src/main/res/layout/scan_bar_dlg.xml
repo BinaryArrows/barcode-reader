@@ -31,7 +31,15 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="5dp"
         android:background="@android:color/holo_green_light"
-        android:text="SCAN BARCODE" />
+        android:text="SCAN CTN BARCODE" />
+
+    <Button
+        android:id="@+id/editbarcodebtn2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="@android:color/holo_green_dark"
+        android:text="SCAN PCS BARCODE" />
 
     <Button
         android:id="@+id/cancelscanbtn"
