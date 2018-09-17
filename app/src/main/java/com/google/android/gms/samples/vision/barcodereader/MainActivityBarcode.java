@@ -473,7 +473,7 @@ public class MainActivityBarcode extends Activity
             }
 
             else {
-              range = "Barcodes!A1:B";//warehouseArr.get(warehousespinnerPos)+"!A1:A";
+              range = "Barcodes!A1:B";
               Log.d("Warehouse name",range);
            }
 
@@ -488,10 +488,6 @@ public class MainActivityBarcode extends Activity
 
             return values;
         }
-
-
-
-
 
         @Override
         protected void onPreExecute() {
@@ -719,8 +715,7 @@ public class MainActivityBarcode extends Activity
             valeditDlg.show();
 
             selectionval = type;
-           // updateValTxt = (EditText) valeditDlg.findViewById(editabletxtid);
-           // updateValTxt.setText(showpreviousvalofdedittxt(type));
+
 
             valSubBtn = valeditDlg.findViewById(idsubbtn);
             valCancelBtn= valeditDlg.findViewById(idcancelbtn);
@@ -755,7 +750,7 @@ public class MainActivityBarcode extends Activity
                             ((UserRecoverableAuthIOException) mLastError).getIntent(),
                             MainActivityBarcode.REQUEST_AUTHORIZATION);
                 } else {
-                  //  mOutputText.setText("The following error occurred:\n"
+                  //mOutputText.setText("The following error occurred:\n"
                     //        + mLastError.getMessage());
                 }
             } else {
@@ -841,26 +836,13 @@ public class MainActivityBarcode extends Activity
          //   String spreadsheetId = "1hRJ_7LljMuf4jApUFTGeXKX-G-JZMTuwKTvYUez7gzA"; //production
 
             String range ="";
-            String sheetrange =  warehouseArr.get(warehousespinnerPos);;
-            //List<String> items = new ArrayList<String>();
-            //List<String> results = new ArrayList<String>();
+            String sheetrange =  warehouseArr.get(warehousespinnerPos);
 
             List<List<Object>> values = new ArrayList<>();
 
             //Where each value represents the list of objects that is to be written to a range
             //I simply want to edit a single column, so I use a single list of objects
             List<Object> data1 = new ArrayList<>();
-
-
-            //updateValTxt = (TextView) dialo
-//            int editabletxtid = R.id.valueupnumtxt;
-//
-//            if(selectionval == SELECTIONVAL.EXPIRYREMARKS || selectionval == SELECTIONVAL.GENERALREMARKS) {
-//
-//                editabletxtid =  R.id.rmksvalueupnumtxt;
-//
-//            }
-
 
             if(updateValTxt.getText().toString() == "")
             {
@@ -976,13 +958,6 @@ public class MainActivityBarcode extends Activity
 
         }
 
-
-//        public List<Object> addSubmissionData () {
-//
-//            List<Object> data2 = new ArrayList<>();
-//
-//            return data2;
-//        }
 
         @Override
         protected void onPreExecute() {
